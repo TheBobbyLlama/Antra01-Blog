@@ -37,3 +37,11 @@
 #blog5:hover {
 	background-image: linear-gradient(white, rgba(255, 255, 255, 0.9), transparent), url('../images/blogs/05.JPG');
 }
+
+#blog6 {
+	background-image: linear-gradient(white, white, rgba(255, 255, 255, 0.25)), url('../images/blogs/06.JPG');
+}
+
+#blog6:hover {
+	background-image: linear-gradient(white, rgba(255, 255, 255, 0.9), transparent), url('../images/blogs/06.JPG');
+}

@@ -2,7 +2,7 @@
 	align-items: center;
 	display: grid;
 	gap: 10px;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	justify-items: center;
 	overflow-y: auto;
 	padding: 20px;
@@ -40,6 +40,12 @@
 	position: relative;
 	top: -4px;
 	width: 100%;
+}
+
+@media screen and (max-width: 1320px) {
+	.container--cards {
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 @media screen and (max-width: 880px) {
