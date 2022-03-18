@@ -1,0 +1,39 @@
+#blog1 {
+	background-image: linear-gradient(white, white, rgba(255, 255, 255, 0.25)), url('../images/blogs/01.JPG');
+}
+
+#blog1:hover {
+	background-image: linear-gradient(white, rgba(255, 255, 255, 0.9), transparent), url('../images/blogs/01.JPG');
+}
+
+#blog2 {
+	background-image: linear-gradient(white, white, rgba(255, 255, 255, 0.25)), url('../images/blogs/02.JPG');
+}
+
+#blog2:hover {
+	background-image: linear-gradient(white, rgba(255, 255, 255, 0.9), transparent), url('../images/blogs/02.JPG');
+}
+
+#blog3 {
+	background-image: linear-gradient(white, white, rgba(255, 255, 255, 0.25)), url('../images/blogs/03.JPG');
+}
+
+#blog3:hover {
+	background-image: linear-gradient(white, rgba(255, 255, 255, 0.9), transparent), url('../images/blogs/03.JPG');
+}
+
+#blog4 {
+	background-image: linear-gradient(white, white, rgba(255, 255, 255, 0.25)), url('../images/blogs/04.JPG');
+}
+
+#blog4:hover {
+	background-image: linear-gradient(white, rgba(255, 255, 255, 0.9), transparent), url('../images/blogs/04.JPG');
+}
+
+#blog5 {
+	background-image: linear-gradient(white, white, rgba(255, 255, 255, 0.25)), url('../images/blogs/05.JPG');
+}
+
+#blog5:hover {
+	background-image: linear-gradient(white, rgba(255, 255, 255, 0.9), transparent), url('../images/blogs/05.JPG');
+}
