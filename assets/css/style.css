@@ -1,8 +1,14 @@
+/*
+	GENERIC STYLES USED BY ALL PAGES
+*/
 :root {
 	--color-border: #202020;
-	--color-card: white;
-	--color-link: #80c0ff;
-	--color-link-highlight: #a0d0ff;
+	--color-content-ancillary: gray;
+	--color-content-background: white;
+	--color-content-background-inset: #f0f0f0;
+	--color-content-text: black;
+	--color-link: #60b0ff;
+	--color-link-highlight: #80c0ff;
 	--color-page-background: #404040;
 	--color-theme: #406080;
 	--color-theme-border: #304050;
@@ -16,10 +22,6 @@
 	padding: 0;
 }
 
-a:link {
-	text-decoration: none;
-}
-
 a:link:not([class]) {
 	color: var(--color-link);
 	transition: 0.25s color;
@@ -27,6 +29,14 @@ a:link:not([class]) {
 
 a:link:not([class]):hover {
 	color: var(--color-link-highlight);
+}
+
+a:visited:not([class]) {
+	color: var(--color-theme);
+}
+
+a:visited:not([class]):hover {
+	color: var(--color-theme-highlight);
 }
 
 body {
@@ -40,6 +50,10 @@ body {
 	right: 0;
 }
 
+h1, h2, h3, h4, h5 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 .btn {
 	align-items: center;
 	border: none;
@@ -49,20 +63,45 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	height: 32px;
 	padding: 2px 10px;
+	text-decoration: none;
 	transition: 0.25s background-color;
 }
 
+.btn[disabled] {
+	pointer-events: none;
+}
+
 .btn--inset {
-	background-color: var(--color-theme-text);
+	background-color: var(--color-content-background-inset);
 	border: solid 2px var(--color-theme-border);
 	color: var(--color-theme-border);
 	height: auto;
-	transition: 0.25s border-color, 0.25s color;
+	transition: 0.25s background-color, 0.25s border-color, 0.25s color;
 }
 
 .btn--inset:hover {
+	background-color: var(--color-content-background);
 	border-color: var(--color-theme-highlight);
 	color: var(--color-theme);
+}
+
+.btn--nav {
+	border: solid 2px var(--color-theme);
+	border-radius: 18px;
+	color: var(--color-theme);
+	font-weight: bold;
+	height: 38px;
+}
+
+.btn--nav:hover {
+	background-color: var(--color-theme-highlight);
+	border-color: var(--color-theme-border);
+	color: white;
+}
+
+.btn--nav[disabled] {
+	border-color: gray;
+	color: silver;
 }
 
 .btn--theme {
@@ -95,6 +134,10 @@ body {
 	font-size: 0.75rem;
 	justify-content: flex-end;
 	height: 32px;
+}
+
+.page-footer a:link {
+	text-decoration: none;
 }
 
 .page-header {
