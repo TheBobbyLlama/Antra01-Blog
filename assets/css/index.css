@@ -9,6 +9,7 @@
 	justify-items: center;
 	overflow-y: auto;
 	padding: 20px;
+	width: 100%;
 }
 
 .card--blog {

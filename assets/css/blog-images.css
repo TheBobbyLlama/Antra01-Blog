@@ -11,7 +11,7 @@
 }
 
 #blog1header {
-	background-image: url('../images/blogs/01/thumb.jpg');
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), transparent), url('../images/blogs/01/thumb.jpg');
 }
 
 #blog2 {
@@ -23,7 +23,7 @@
 }
 
 #blog2header {
-	background-image: url('../images/blogs/02/thumb.jpg');
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), transparent), url('../images/blogs/02/thumb.jpg');
 }
 
 #blog3 {
@@ -35,7 +35,7 @@
 }
 
 #blog3header {
-	background-image: url('../images/blogs/03/thumb.jpg');
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), transparent), url('../images/blogs/03/thumb.jpg');
 }
 
 #blog4 {
@@ -47,7 +47,7 @@
 }
 
 #blog4header {
-	background-image: url('../images/blogs/04/thumb.jpg');
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), transparent), url('../images/blogs/04/thumb.jpg');
 }
 
 #blog5 {
@@ -59,7 +59,7 @@
 }
 
 #blog5header {
-	background-image: url('../images/blogs/05/thumb.jpg');
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), transparent), url('../images/blogs/05/thumb.jpg');
 }
 
 #blog6 {
@@ -71,5 +71,5 @@
 }
 
 #blog6header {
-	background-image: url('../images/blogs/06/thumb.jpg');
+	background-image: linear-gradient(rgba(255, 255, 255, 0.5), transparent), url('../images/blogs/06/thumb.jpg');
 }
